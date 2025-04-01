@@ -81,6 +81,10 @@ span {
     opacity: 0.5;
 }
 
+.colorimg:hover {
+    opacity: 1;
+}
+
 .sponsor {
     justify-items: center;
     border-bottom: solid gray;
@@ -109,7 +113,7 @@ span {
   }
 
   /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover,  {
     background-color: rgba(0,0,0,0.8);
   }
   
